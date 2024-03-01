@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Recap Dom</title>
+</head>
+
+<body>
+  <main>
+    <div class="form">
+      <div class="form-row">
+        <label for="user">User Name:</label>
+
+        <input id="user" type="text" placeholder="insert your user name">
+      </div>
+
+      <div class="form-row">
+        <label for="address">Address:</label>
+
+        <input id="address" type="address" placeholder="insert your address">
+      </div>
+
+      <div class="form-row">
+        <label for="color">Color background:</label>
+        
+        <input id="color" type="color" placeholder="insert your color">
+      </div>
+
+      <div class="form-row">
+        <label for="image">Show Image </label>
+        <input type="checkbox" id="image-checkbox">
+      </div>
+
+      <button id="save" class="btn">Save</button>
+    </div>
+
+    <div class="card">
+      <div class="card-data">
+        <h2>Card</h2>
+        <h3 class="card-user-name">User Name</h3>
+        <p class="card-address">Address</p>
+      </div>
+
+      <div class="card-image hidden">
+        <img src="./img/avatar.jpg" alt="avatar" width="250px">
+      </div>
+    </div>
+
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
